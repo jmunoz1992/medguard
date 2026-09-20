@@ -1,6 +1,6 @@
+import "dotenv/config";
 import Anthropic from "@anthropic-ai/sdk";
 import { retrieveRelevantInteractions } from "./retriever.ts";
-
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 const tools: Anthropic.Tool[] = [
