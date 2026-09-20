@@ -1,0 +1,110 @@
+[
+    {
+      "id": "warfarin-aspirin",
+      "drugs": ["warfarin", "aspirin"],
+      "severity": "major",
+      "summary": "Increased bleeding risk due to combined anticoagulant/antiplatelet effect."
+    },
+    {
+      "id": "ssri-maoi",
+      "drugs": ["sertraline", "phenelzine"],
+      "severity": "contraindicated",
+      "summary": "Risk of serotonin syndrome; combination should be avoided."
+    },
+    {
+      "id": "statin-grapefruit",
+      "drugs": ["simvastatin", "grapefruit"],
+      "severity": "moderate",
+      "summary": "Grapefruit inhibits CYP3A4, raising statin levels and myopathy risk."
+    },
+    {
+      "id": "sildenafil-nitroglycerin",
+      "drugs": ["sildenafil", "nitroglycerin"],
+      "severity": "contraindicated",
+      "summary": "Additive vasodilation can cause severe, potentially fatal hypotension."
+    },
+    {
+      "id": "clarithromycin-simvastatin",
+      "drugs": ["clarithromycin", "simvastatin"],
+      "severity": "contraindicated",
+      "summary": "Clarithromycin inhibits CYP3A4, sharply raising simvastatin levels and rhabdomyolysis risk."
+    },
+    {
+      "id": "linezolid-fluoxetine",
+      "drugs": ["linezolid", "fluoxetine"],
+      "severity": "contraindicated",
+      "summary": "Combined serotonergic and MAO-inhibiting effects can precipitate serotonin syndrome."
+    },
+    {
+      "id": "lisinopril-spironolactone",
+      "drugs": ["lisinopril", "spironolactone"],
+      "severity": "major",
+      "summary": "Concurrent use raises serum potassium, increasing the risk of dangerous hyperkalemia."
+    },
+    {
+      "id": "warfarin-fluconazole",
+      "drugs": ["warfarin", "fluconazole"],
+      "severity": "major",
+      "summary": "Fluconazole inhibits warfarin metabolism, elevating INR and bleeding risk."
+    },
+    {
+      "id": "digoxin-amiodarone",
+      "drugs": ["digoxin", "amiodarone"],
+      "severity": "major",
+      "summary": "Amiodarone raises digoxin concentrations, increasing the risk of digoxin toxicity."
+    },
+    {
+      "id": "lithium-hydrochlorothiazide",
+      "drugs": ["lithium", "hydrochlorothiazide"],
+      "severity": "major",
+      "summary": "Thiazide-induced sodium loss reduces lithium clearance, risking lithium toxicity."
+    },
+    {
+      "id": "metoprolol-verapamil",
+      "drugs": ["metoprolol", "verapamil"],
+      "severity": "major",
+      "summary": "Combined AV-nodal suppression can cause bradycardia, heart block, and hypotension."
+    },
+    {
+      "id": "theophylline-ciprofloxacin",
+      "drugs": ["theophylline", "ciprofloxacin"],
+      "severity": "major",
+      "summary": "Ciprofloxacin inhibits theophylline metabolism, raising levels and seizure risk."
+    },
+    {
+      "id": "allopurinol-azathioprine",
+      "drugs": ["allopurinol", "azathioprine"],
+      "severity": "major",
+      "summary": "Allopurinol inhibits xanthine oxidase, raising azathioprine toxicity and myelosuppression risk."
+    },
+    {
+      "id": "metronidazole-alcohol",
+      "drugs": ["metronidazole", "alcohol"],
+      "severity": "moderate",
+      "summary": "Metronidazole blocks acetaldehyde metabolism, causing a disulfiram-like reaction."
+    },
+    {
+      "id": "clopidogrel-omeprazole",
+      "drugs": ["clopidogrel", "omeprazole"],
+      "severity": "moderate",
+      "summary": "Omeprazole inhibits CYP2C19, reducing activation of clopidogrel and its antiplatelet effect."
+    },
+    {
+      "id": "rifampin-ethinylestradiol",
+      "drugs": ["rifampin", "ethinylestradiol"],
+      "severity": "moderate",
+      "summary": "Rifampin induces hepatic enzymes, lowering hormone levels and contraceptive efficacy."
+    },
+    {
+      "id": "doxycycline-calcium-carbonate",
+      "drugs": ["doxycycline", "calcium carbonate"],
+      "severity": "minor",
+      "summary": "Calcium chelates doxycycline in the gut, reducing antibiotic absorption and efficacy."
+    },
+    {
+      "id": "levothyroxine-ferrous-sulfate",
+      "drugs": ["levothyroxine", "ferrous sulfate"],
+      "severity": "minor",
+      "summary": "Iron binds levothyroxine in the gut, reducing thyroid hormone absorption."
+    }
+  ]
