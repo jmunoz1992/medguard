@@ -1,4 +1,4 @@
-import interactions from "../data/interactions.json";
+import interactions from "../data/interactions.json" with { type: "json" };
 
 export interface Interaction {
   id: string;
